@@ -1,7 +1,23 @@
+/* U P L O A D   F O N T */
+@font-face {
+  font-family: "DinBold";
+  src: url("../font/DinBold.ttf"); }
+@font-face {
+  font-family: "DinRegular";
+  src: url("../font/DinRegular.ttf"); }
+
+
+
+
 /* B O D Y */
 .dsBody {
-  background-color: #EEEFF0 !important;
+  font-family: 'DinRegular', Helvetica;
+  font-size: 1.2rem;
+  color:#000;
+  background-color: #EFEFEF !important;
   padding: 0 0 100px 0; }
+
+
 
 
 /* H E A D E R */
@@ -10,15 +26,17 @@
   width: 100%; }
 
 .dsMenuHeader {
-  padding: 0; }
+  width: 100%;
+  padding: 1.5rem 2rem 1.8rem 2rem; }
 
 .dsMenuHeaderText {
+  font-family: 'DinBold', Helvetica;
   color: #2D3741;
   font-size: 2.5rem;
   font-weight: 300;
   margin: 0;
-  top: 50%;
-  transform: translate(170%, -50%); }
+  /* top: 50%;
+  transform: translate(170%, -50%); */ }
 
 .dsLogo {
   float: left;
@@ -26,54 +44,64 @@
   height: 100%; }
 
 
+
+
 /*  H E A D I N G S */
 .dsMenuH1 {
-  background-color: #2D3741;
+  font-family: 'DinBold', Helvetica;
+  background-color: #022F51;
   color: #fff;
-  font-size: 1.3rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
+  font-size: 2.2rem;
   line-height: 1;
   margin-top: 60px;
-  padding: 1.1rem 2rem 1rem 2.1rem;
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #EEEFF0; }
+  padding: 1.4rem 2rem 1.3rem 2.1rem;
+  width: 100%; }
 
 .dsMenuH3 {
-  color: #2D3741;
-  font-size: 1rem;
+  font-family: 'DinBold', Helvetica;
+  font-size: 1.4rem;
+  color: #000;
   font-weight: 600;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
   border: none;
   padding: 0;
   margin: 0; }
 
 
+
+
 /* P A R A G R A P H */
 .dsMenuCardP {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.8;
   color: #969BA0;
   margin: 0.5rem 0 1rem 0rem; }
 
 .dsMenuA {
+  font-size: 1.4rem;
   text-decoration: none;
-  color: #2D3741; }
+  color: #2D3741;
+  border-bottom: 3px solid #1EAEF7; }
 
 .dsMenuA:hover {
   text-decoration: none;
-  color: #2D3741; }
+  color: #2D3741;
+  border-bottom: none; }
+
+
 
 
 /* A C C O R D I O N */
 .accordion {
-  width: 100%; }
+  box-shadow: 1px 1px 4px 0 rgba(137,137,137,.5);
+  width: 100%;
+  border-radius: 0; }
 
 .dsMenuCard {
-  border: 1px solid #EEEFF0 !important; }
+  border: none;
+  border-radius: 0;
+  margin-top: 1px; }
+
+
 
 
 /* A C C O R D I O N   L E V E L  1 */
@@ -81,16 +109,21 @@
 .dsMenuCardHeader {
   font-weight: 200;
   font-size: 2.2rem;
+  padding: 1.2rem 2rem;
   background-color: #fff; }
 
 .dsMenuCardHeaderTypo {
   font-weight: 300;
   font-size: 1.8rem;
-  color: #2D3741;
-  text-decoration: none; }
+  color: #000;
+  text-decoration: none;
+  padding: 0;
+  border-bottom: 2px solid #fff;
+  border-radius: 0; }
 
 .dsMenuCardHeaderTypo:hover {
-  color: #6C737A; }
+  color: #000;
+  border-bottom: 2px solid #000; }
 
 .dsMenuCardHeader:hover .dsMenuCardHeader:focus {
   text-decoration: none !important;
@@ -110,13 +143,17 @@
   margin-right: 10px; }
 
 
+
+
 /* C O N T E N T   L E V E L   1 */
 .dsMenuCardBody {
-  background-color: #F7F7F7;
-  padding: 2rem; }
+  background-color: #FFF;
+  padding: 1.5rem 3rem; }
 
 .dsMenuDivider {
   margin-top: 3rem; }
+
+
 
 
 /* I F R A M E */
