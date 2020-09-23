@@ -1,0 +1,12 @@
+.oedIconBox {
+  padding: 24px 0;
+  height: 160px;
+  background-color: #fff;
+  text-align: center; }
+
+  .oedIcon {
+    width: 64px;
+    height: 64px;
+    padding: 0;
+    margin: 0 auto 24px auto; }
+  
