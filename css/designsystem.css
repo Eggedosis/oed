@@ -3,7 +3,16 @@
   margin-top: 30px;
   height: 190px;
   background-color: #fff;
+  color: #000000;
   text-align: center; }
+
+.oedIconBoxBlue {
+  background-color: #ffffff;
+  color: #008FD6; }
+
+.oedIconBoxWhite {
+  background-color: #008FD6;
+  color: #ffffff; }
 
   .oedIcon {
     width: 64px;
