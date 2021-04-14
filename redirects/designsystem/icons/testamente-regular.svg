@@ -1,1 +1,1 @@
-<svg id="stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><polyline class="cls-1" points="18.5 17.5 18.5 2.5 6.5 2.5 2.5 7.5 6.5 7.5"/><polyline class="cls-1" points="6.5 2.5 6.5 21.5 18.5 21.5 21.5 17.5 10.5 17.5 6.5 21.5"/></svg>
+<svg id="outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,17V2H6.26L1.46,8H6V22H18.75l3.75-5ZM3.54,7,6,3.93V7ZM7,3H18V17H10.29L7,20.29ZM18.25,21H7.71l3-3H20.5Z"/></svg>

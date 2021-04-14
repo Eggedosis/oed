@@ -1,1 +1,1 @@
-<svg id="stroke" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs><circle class="cls-1" cx="12" cy="5" r="3.5"/><path class="cls-1" d="M6.5,23V14.8C6.5,13,9,11.5,12,11.5s5.5,1.48,5.5,3.3V23"/></svg>
+<svg id="outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8.75a4,4,0,1,1,4-4A4,4,0,0,1,12,8.75Zm0-7a3,3,0,1,0,3,3A3,3,0,0,0,12,1.75Z"/><path d="M18,22.75H17v-8.2c0-1.52-2.29-2.8-5-2.8S7,13,7,14.55v8.2H6v-8.2c0-2.13,2.64-3.8,6-3.8s6,1.67,6,3.8Z"/></svg>
